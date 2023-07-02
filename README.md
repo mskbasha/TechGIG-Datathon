@@ -21,31 +21,20 @@ The project follows the following approach to solve the problem:
 
 5. Evaluation and Scoring: Evaluate the models' performance using appropriate metrics such as accuracy, precision, recall, and F1-score. Generate the output file with the required parameters for scoring the solution.
 
-## Directory Structure
 
-- `data/`: Contains the input data files and any processed data files generated during preprocessing.
-- `notebooks/`: Jupyter notebooks documenting the EDA, data preprocessing, model training, and evaluation steps.
-- `models/`: Saved trained models for HCP classification and taxonomy prediction.
-- `src/`: Source code files containing utility functions or scripts used in the project.
-- `output/`: Output files, including the scoring solution output and complete solution output.
 
 ## Dependencies
 
-- List the dependencies required to run the code, including any specific library versions.
+- Python (version 3.9)
+- Pandas 
+- NumPy 
+- Scikit-learn 
+- GLOVE 
 
-## Usage
-
-- Describe how to run the code or reproduce the results. Include any necessary steps, command line arguments, or configuration files.
 
 ## Results
 
-- Summarize the performance of the models, including accuracy, precision, recall, and F1-score for both HCP classification and taxonomy prediction.
+- f1_score max of 99.8671
+- max of 81.12 for Taxonomy with most frequent label
 
-## Conclusion
-
-- Discuss the main findings and insights from the project. Highlight any challenges faced and potential areas for improvement.
-
-## References
-
-- List any external resources, libraries, or research papers used in the project.
 
